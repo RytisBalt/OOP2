@@ -13,12 +13,13 @@ int main() {
     int pkiekis;
     vector<studentas> kursas;
     studentas stud;
-    skaitymas(kursas, &pkiekis);
+    skaitymas(kursas);
     sort(kursas.begin(), kursas.end(), [](studentas a, studentas b)
         {
             return a.vardas < b.vardas;
         });
-    spausdinimas(kursas, pkiekis);
+    spausdinimas(kursas);
     system("pause");
     return 0;
 }
+
