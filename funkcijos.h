@@ -18,10 +18,13 @@ struct studentas {
     string vardas, pavarde;
     vector<int> nd = { 0 };
     int egz;
-    float galutinis;
+    float galutinisv = 0;
+    float galutinism = 0;
 };
 
 unsigned int zodziu_kiekis(string const& str);
-void skaitymas(vector<studentas>& kursas, int* pkiekis);
-void spausdinimas(vector<studentas> kursas, int pkiekis);
+void skaitymas(vector<studentas>& kursas);
+void spausdinimas(vector<studentas>& kursas);
 float mediana(vector<int> nd);
+float vidurkis(vector<int> nd);
+
