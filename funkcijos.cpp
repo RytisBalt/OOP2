@@ -143,6 +143,7 @@ void rusiavimas(vector<studentas>& kursas, int& skiekis)
 
 }
 void analize(int skiekis, int pkiekis, vector<studentas>&kursas) {
+    auto start = chrono::high_resolution_clock::now();
 
     kurimas(skiekis, pkiekis);
     skaitymas(kursas, skiekis, pkiekis);
@@ -150,4 +151,7 @@ void analize(int skiekis, int pkiekis, vector<studentas>&kursas) {
     suskirstymas(kursas, skiekis);
     spausdinimasblogu(kursas, skiekis);
     spausdinimasgeru(kursas, skiekis);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration<double> diff = end - start;
+    cout << skiekis << " Elementu visi procesai uztruko : " << diff.count() << " s\n";
 }
