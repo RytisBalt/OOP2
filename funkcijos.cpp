@@ -19,7 +19,7 @@ void skaitymas(vector<studentas>& kursas, int& skiekis, int& pkiekis) {
     auto start = chrono::high_resolution_clock::now();
     int temp;
     ifstream file;
-    string buff;
+    //string buff;
     studentas s;
     string pavadinimas = "Studentai" + to_string(skiekis) + ".txt";
     file.open(pavadinimas);
