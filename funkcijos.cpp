@@ -75,6 +75,7 @@ void kurimas(int& skiekis, int& pkiekis) {
         }
         rf << endl;
     }
+    rf.close();
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end - start;
     cout << skiekis << " Elementu failo sukurimas uztruko: " << diff.count() << " s\n";
@@ -112,6 +113,7 @@ void spausdinimasblogu(vector<studentas>& kursas, int& skiekis) {
             blog << kursas[i].vardas << " " << kursas[i].pavarde << "     " << kursas[i].galutinisv << endl;
         }
     }
+    blog.close();
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end - start;
     cout << skiekis << " Elementu spausdinimas i blogesnius uztruko: " << diff.count() << " s\n";
@@ -126,6 +128,7 @@ void spausdinimasgeru(vector<studentas>& kursas, int& skiekis) {
             ger << kursas[i].vardas << " " << kursas[i].pavarde << "     " << kursas[i].galutinisv << endl;
         }
     }
+    ger.close();
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end - start;
     cout << skiekis << " Elementu spausdinimas i geresnius uztruko: " << diff.count() << " s\n";
@@ -145,7 +148,6 @@ void rusiavimas(vector<studentas>& kursas, int& skiekis)
 void analize(int skiekis, int pkiekis, vector<studentas>&kursas) {
     auto start = chrono::high_resolution_clock::now();
 
-    kurimas(skiekis, pkiekis);
     skaitymas(kursas, skiekis, pkiekis);
     rusiavimas(kursas, skiekis);
     suskirstymas(kursas, skiekis);
