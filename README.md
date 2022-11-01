@@ -1,5 +1,6 @@
 
-![image](https://user-images.githubusercontent.com/31890930/198407798-1a999eeb-e28a-422e-bbf1-40fc546fd73c.png)
+![image](https://user-images.githubusercontent.com/31890930/199308734-c68b42cb-ae64-4bdc-928f-9b4744289072.png)
+
 
 KOMPIUTERIO APRAŠAS: 
 •	Procesorius: AMD Ryzen 7 5800X 8-Core Processor    3.80 GHz
