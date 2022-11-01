@@ -1,5 +1,5 @@
+![image](https://user-images.githubusercontent.com/31890930/199317322-3ea039ae-5d93-4979-9a3f-717ccb8fd1b3.png)
 
-![image](https://user-images.githubusercontent.com/31890930/199308734-c68b42cb-ae64-4bdc-928f-9b4744289072.png)
 
 
 KOMPIUTERIO APRAŠAS: 
