@@ -37,4 +37,3 @@ void rusiavimas(vector<studentas>& kursas, int& skiekis);
 void skaitymasl(list<studentas>& kursas, int& skiekis, int& pkiekis);
 void analizel(int skiekis, int pkiekis, list<studentas>& kursas);
 void suskirstymasl(list<studentas>& kursas, int& skiekis);
-
