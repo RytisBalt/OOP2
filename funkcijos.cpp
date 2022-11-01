@@ -147,7 +147,8 @@ void rusiavimas(vector<studentas>& kursas, int& skiekis)
 }
 void analize(int skiekis, int pkiekis, vector<studentas>&kursas) {
     auto start = chrono::high_resolution_clock::now();
-
+    
+    kurimas (skiekis, pkiekis);
     skaitymas(kursas, skiekis, pkiekis);
     rusiavimas(kursas, skiekis);
     suskirstymas(kursas, skiekis);
