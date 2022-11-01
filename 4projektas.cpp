@@ -12,7 +12,7 @@ using namespace std;
 
 
 int main() {
-;
+    
     vector<studentas> kursas;
     list<studentas> kursasl;
     cout << "Spartos analize su VECTOR: " << endl;
