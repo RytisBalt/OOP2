@@ -1,5 +1,5 @@
 c_make_minimum_required(VERSION 3.25)
 project(5 projektas)
-include_directories (include)
-file (GLOB SOURCES "src/*.cpp")
+include_directories (.)
+file (GLOB SOURCES "./*.cpp")
 add_executable(5 projektas ${SOURCES})
