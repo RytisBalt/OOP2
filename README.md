@@ -4,7 +4,7 @@
 
 Pirmasis suskirstymas: 
 Suskirstymui padalinam studentus i dvi naujas kategorijas: 
-Blogesnius ir geresnius
+blogesnius ir geresnius
 
 Antrasis suskirstymas:
 Suskirstymui padalinam studentus i viena kategorija (Blogesnius) ir pritaikom erase - remove_if idiomą surušiavimui gerų studentų, t.y: Iš pagrindinio failo ,,Studentai___.txt" ištrinam blogus studentus.
