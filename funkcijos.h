@@ -43,7 +43,7 @@ public:
     // Destructor 
     ~StudentasClass()
     {
-
+        nd.clear();
     }
     // Copy constructor 
     StudentasClass(const StudentasClass& kiti)
