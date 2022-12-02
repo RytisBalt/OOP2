@@ -38,6 +38,7 @@ public:
     inline string getPavarde() const { return pavarde; }
     inline int getEgz() const { return egz; }
     inline vector<int> getNd() const {return nd; }
+    inline float getGalutinisV() const { return galutinisv; }
     float getGalutinis();
     void readStudent(ifstream&, int&);
     
