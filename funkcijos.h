@@ -56,6 +56,7 @@ public:
     }
     // Copy assignment operator
     StudentasClass& operator=(const StudentasClass& kiti) {
+        if (&kiti == this) return *this;
         vardas = kiti.vardas;
         pavarde = kiti.pavarde;
         egz = kiti.egz;
