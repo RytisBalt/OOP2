@@ -1,0 +1,5 @@
+c_make_minimum_required(VERSION 3.25)
+project(Projektas6)
+include_directories (.)
+file (GLOB SOURCES "./*.cpp")
+add_executable(Projektas6 ${SOURCES})
