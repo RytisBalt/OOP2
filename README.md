@@ -1,17 +1,31 @@
-V0.1 RELEASE:
-https://github.com/RytisBalt/OOP/tree/V01
-![image](https://user-images.githubusercontent.com/31890930/201346650-4a343c21-73f9-4e88-9833-7f121423282f.png)
-V0.2 RELEASE:
-https://github.com/RytisBalt/OOP/tree/V02
-![image](https://user-images.githubusercontent.com/31890930/201346865-a2435f9c-fc08-4fdc-9d8b-27c7ed621240.png)
-V0.3 RELEASE:
-https://github.com/RytisBalt/OOP/tree/V03
-![image](https://user-images.githubusercontent.com/31890930/201347120-e961b743-2485-4f54-ac90-11660efeebdd.png)
-V0.4 RELEASE:
-https://github.com/RytisBalt/OOP/tree/V04
-![image](https://user-images.githubusercontent.com/31890930/201347308-d90e7ef7-2ef1-4f74-a142-29afff8e05a6.png)
-V1.0 RELEASE:
-https://github.com/RytisBalt/OOP/tree/V1.0
-![image](https://user-images.githubusercontent.com/31890930/201347480-b61e891a-0644-4d05-bf1b-12b92299c843.png)
+V1.1 RELEASE:
+![image](https://user-images.githubusercontent.com/31890930/205245552-cae40d8e-5ffd-4e8f-9caa-67bbc0a9a432.png)
+Spartos analizė naudojant struct ir naudojant class
 
+Spartos analizė per O1 flagą:
+
+![image](https://user-images.githubusercontent.com/31890930/207893295-3973b199-c1ce-416f-92dc-115400b40a7e.png)
+
+
+Spartos analizė per O2 flagą:
+
+![image](https://user-images.githubusercontent.com/31890930/207893652-4ddee3be-01e5-4c9b-960d-c1b55f3f87ee.png)
+
+Spartos analizė per O3 flagą:
+
+![image](https://user-images.githubusercontent.com/31890930/207894162-a29c1f0d-227e-476a-a812-0f96a35ae007.png)
+
+
+
+V1.2 RELEASE:
+Pridėti ,,Rule of three" įvesties/išvesties operatoriai. (Destructor, Copy constructor, Copy assignment operator)
+
+
+V1.5 RELEASE:
+Sukurtos dvi klasės: Bazinė ir išvestinė
+
+
+
+V2.0 RELEASE:
+Padarytas Doxygen failas ir pridėtas CMake
 
