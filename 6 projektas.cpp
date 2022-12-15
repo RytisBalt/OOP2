@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 
-    vector<studentas> kursas;
+    /*vector<studentas> kursas;
     vector<StudentasClass> kursasc;
     list<studentas> kursasl;
     cout << "Spartos analize su STRUCT: " << endl;
@@ -39,8 +39,13 @@ int main() {
     analizeclass(1000000, 5, kursasc);
     cout << endl;
     //analizeclass(10000000, 5, kursasc);
-    cout << endl;
-
+    cout << endl; */
+    StudentasClass S1, S2;
+    cout << "Iveskite studento duomenis (1. Vardas, 2. Pavarde, 3. Egzaminas, 4. Rasykite namu darbus, kai nebenoresite irasykite -1): " << endl;
+    cin >> S1;
+    cout << "Studentas: " << S1 << endl;
+    S2 = S1; //Copy Constructor
+    cout << "Studentas(2)" << S2 << endl;
 
 
     system("pause");
