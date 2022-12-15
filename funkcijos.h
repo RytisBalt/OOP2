@@ -38,8 +38,38 @@ public:
     inline string getPavarde() const { return pavarde; }
     inline int getEgz() const { return egz; }
     inline vector<int> getNd() const {return nd; }
+    inline float getGalutinisV() const { return galutinisv; }
     float getGalutinis();
     void readStudent(ifstream&, int&);
+    StudentasClass(string v, string p, int e, vector<int>n, float g)
+    {
+        vardas = v;
+        pavarde = p;
+        egz = e;
+        nd = n;
+        galutinisv = g;
+    }
+    friend ostream& operator<<(ostream& output, const StudentasClass& D) {
+        output << "Vardas: " << D.vardas << "  Pavarde: " << D.pavarde << "  Egzaminas: " << D.egz << " Namu darbai: ";
+        for (auto elem : D.nd)
+            cout << elem << " ";
+        output << "Galutinis balas pagal vidurki: " << D.galutinisv;
+        return output;
+    }
+    friend istream& operator>>(istream& input, StudentasClass& D) {
+        input >> D.vardas >> D.pavarde >> D.egz;
+        while (true)
+        {
+            int value;
+            input >> value;
+            if (value == -1) break;
+            D.nd.push_back(value);
+
+        }
+        D.galutinisv = (accumulate(D.nd.begin(), D.nd.end(), 0.0) / D.nd.size() * 0.4) + (D.egz * 0.6);
+        return input;
+    }
+
     // Destructor 
     ~StudentasClass()
     {
@@ -84,3 +114,4 @@ void analizeclass(int skiekis, int pkiekis, vector<StudentasClass>& kursas);
 void suskirstymasl(list<studentas>& kursas, int& skiekis);
 void suskirstymas2(vector<studentas>& kursas, int& skiekis);
 void suskirstymasl2(list<studentas>& kursas, int& skiekis);
+
