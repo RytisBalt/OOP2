@@ -28,10 +28,9 @@ protected:
     string vardas;
     string pavarde;
 public:
-    Zmogus() {
-        vardas = "Vardenis";
-        pavarde = "Pavardenis";
-    };
+    Zmogus() {};
+    inline string getVardas() const { return vardas; }
+    inline string getPavarde() const { return pavarde; }
     virtual void print() {
         cout << "Bazine klase" << endl;
     }
@@ -51,8 +50,6 @@ public:
         galutinisv = 0;
     }    // default konstruktorius
     StudentasClass(ifstream& file, int& pkiekis);
-    inline string getVardas() const { return vardas; }   
-    inline string getPavarde() const { return pavarde; }
     inline int getEgz() const { return egz; }
     inline vector<int> getNd() const {return nd; }
     inline float getGalutinisV() const { return galutinisv; }
